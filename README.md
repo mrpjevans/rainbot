@@ -1,0 +1,2 @@
+# rainbot
+Rain Detector script
