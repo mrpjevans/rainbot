@@ -58,12 +58,12 @@ ExecStart=/usr/bin/python3 /home/pi/rainbot/rainbot.py
 WantedBy=multi-user.target
 ```
 
-Ctrl+X to save and quit out of nano. Now issue the following command:
+Ctrl+X to save and quit out of nano. Now issue the following commands:
 
 ```bash
-sudo chmod 644 /lib/systemd/system/klaxon.service
+sudo chmod 644 /lib/systemd/system/rainbot.service
+sudo systemctl enable rainbot.service
 sudo systemctl daemon-reload
-sudo systemctl enable klaxon.service
 ```
 
 The script will now start in the background on reboot.
