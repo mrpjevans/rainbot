@@ -1,6 +1,6 @@
 # rainbot
 Python script to control the MagPi Rain Detector project. See
-raspberypi.org/magi issue #74 for more details.
+raspberypi.org/magpi issue #74 for more details.
 
 ## Pre-requisites
 Make sure gpiozero is installed.
