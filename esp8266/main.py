@@ -53,8 +53,8 @@ def pushover(message):
 # Load up
 env = loadEnv()
 
-# Check Wifi Connection
-wifiConnect()
+# Send startup message (and Check Wifi Connection)
+pushover('Rainbot lives!')
 
 # Set up connection to analog pin
 adc = machine.ADC(0)
