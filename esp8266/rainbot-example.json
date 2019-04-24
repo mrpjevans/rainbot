@@ -1,0 +1,8 @@
+// Edit this file, save as 'rainbot.json' and remove this line
+{
+  "ssid": "Your Wifi Network",
+  "psk": "Your Wifi Password",
+  "pushover_app_key": "Your Pushover App Key",
+  "pushover_user_key": "Your Pushover User Key",
+  "sensor_threshold": 700
+}
