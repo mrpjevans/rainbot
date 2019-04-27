@@ -107,3 +107,5 @@ venv.bak/
 esp8266/rainbot.json
 *.code-workspace
 .vscode
+
+esp8266-arduino/rainbot/Credentials.h
